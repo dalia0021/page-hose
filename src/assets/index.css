@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=IBM+Plex+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-bungee{
+  font-family: 'Bungee', cursive;
+}
+.text-ibm {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.title-vertical{
+ color: rgb(208 56 1 / 1);
+ text-shadow: 
+ #e3ce9d 3px -2px,
+ #e3ce9d 2px -2px,
+ #e3ce9d 2px -1px,
+ #e3ce9d 1px 0px,
+ #e3ce9d 0px 1px,
+ #e3ce9d -1px 2px,
+ #e3ce9d -2px 3px,
+ #e3ce9d -3px 4px,
+ #e3ce9d -4px 5px,
+ #e3ce9d -5px 6px,
+ #e3ce9d -6px 7px
+}
+
+@media (min-width: 64em) and (min-height: 36em) and (min-aspect-ratio: 6 / 5){
+    .title-vertical {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+  }
